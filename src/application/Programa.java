@@ -10,8 +10,8 @@ import chess.ChessPiece;
 import chess.ChessPosition;
 
 public class Programa {
-
-	public static void main(String[] args){
+	
+	public static void main(String[] args) throws ClassNotFoundException  {
 	
 		Scanner sc = new Scanner(System.in);
 		ChessMatch chessMatch = new ChessMatch();
@@ -41,11 +41,5 @@ public class Programa {
 				sc.nextLine();
 			}
 		}
-		
-	
-		
-		
-		
 	}
-
 }
