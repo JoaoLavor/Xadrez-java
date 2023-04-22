@@ -9,7 +9,7 @@ import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
 
-public class Program {
+public class Programa {
 
 	public static void main(String[] args){
 	
@@ -29,6 +29,7 @@ public class Program {
 				System.out.print("Posição de Destino: ");
 				ChessPosition target = UI.readChessPosition(sc);
 				
+				@SuppressWarnings("unused")
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
 			}
 			catch(ChessException e) {
